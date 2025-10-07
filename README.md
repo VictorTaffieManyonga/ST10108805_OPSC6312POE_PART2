@@ -115,7 +115,8 @@ UI: Jetpack Components \& Material Design
 
 \* Wishlist and product reviews
 
-
+VIDEO FOR THE APP AND VOICE OVER
+https://docs.google.com/videos/d/1Bs5KeY3fSbD_7JsVcUKShBEIooHiCcyb-sop1-Ee2Yk/edit?usp=sharing
 
 ST10108805 ( VICTOR MANYONGA)
 
