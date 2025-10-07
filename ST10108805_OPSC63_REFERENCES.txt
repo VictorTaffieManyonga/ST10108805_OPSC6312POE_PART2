@@ -1,0 +1,13 @@
+During the course of this project, I had the opportunity to explore various AI tools that greatly enhanced both my productivity and creativity throughout the development process. I found that tools like ChatGPT were particularly useful—I relied on it to generate Kotlin code snippets, craft documentation, and even debug errors more swiftly than I could on my own. It felt almost like having a smart coding buddy who was always ready to help out.
+
+Another invaluable resource was GitHub Copilot, which made a significant difference with things like code completion and demystifying some of the more complex functions I was trying to grasp. The combination of these tools really streamlined my workflow and enabled me to focus on learning rather than getting bogged down in repetitive or mundane tasks. It was especially beneficial given that I was venturing into some new concepts that I hadn’t tackled before.
+
+Of course, it wasn’t all smooth sailing. One of the drawbacks I encountered was that sometimes the AI-generated code wasn’t quite compatible with what I was building, which required me to step in and make manual corrections. While this was a bit frustrating and sometimes added extra time to my work, I tried to view it as part of the learning curve. Despite those hiccups, my overall experience was positive. I felt that these tools not only helped me save time but also accelerated my growth as a student developer. With each challenge, I learned a little more, and I can't help but appreciate how technology can aid the learning journey.
+
+References
+
+OpenAI. (2025). ChatGPT (Version 5) [Large language model]. OpenAI. https://chat.openai.com/
+GitHub. (2025). GitHub Copilot [AI-powered code assistant]. GitHub. https://github.com/features/copilot
+Google Developers. (2025). ARCore Overview. https://developers.google.com/ar
+Android Developers. (2025). Android Studio Documentation. https://developer.android.com/studio
+Firebase. (2025). Firebase for Android. https://firebase.google.com/docs/android
