@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".favorites.FavoritesFragment">
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/top_app_bar_favorites_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/top_app_bar_favorites"
+                style="@style/AppBarFurniture"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:menu="@menu/top_app_bar_favorites"
+                app:title="@string/favorites"
+                app:titleCentered="true" />
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_favorites"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constrainedHeight="true"
+            tools:itemCount="3"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/top_app_bar_favorites_layout"
+            tools:listitem="@layout/item_favorites"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:text="@string/add_all_to_my_cart"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/nunito_sans_semibold"
+            android:textSize="18sp"
+            android:paddingVertical="12dp"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

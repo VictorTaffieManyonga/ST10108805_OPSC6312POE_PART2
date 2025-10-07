@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "30125466679",
+    "project_id": "dzynafan-3372e",
+    "storage_bucket": "dzynafan-3372e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30125466679:android:a79de11943f80d9e350bb2",
+        "android_client_info": {
+          "package_name": "com.company.dzynafan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxa576_QPo8rWGQsEnR453t3ohNpE_M74"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

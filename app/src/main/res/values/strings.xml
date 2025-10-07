@@ -1,0 +1,138 @@
+<resources>
+    <string name="app_name">Dzynafan</string>
+    <string name="get_started">Get Started</string>
+    <string name="make_your">MAKE YOUR</string>
+    <string name="home_beautiful">HOME BEAUTIFUL</string>
+    <string name="get_started_text">The best simple place where you discover most wonderful furnitures and make your home beautiful</string>
+    <string name="get_started_content_description">Background image of a living room with a sofa</string>
+    <string name="hello">Hello!</string>
+    <string name="welcome_back">WELCOME BACK</string>
+    <string name="welcome">WELCOME</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="hint_your_email">Insert your email</string>
+    <string name="hint_password">Insert your password</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="login">Login</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="name">Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="home">Home</string>
+    <string name="favorites">Favorites</string>
+    <string name="notifications">Notifications</string>
+    <string name="profile">Profile</string>
+    <string name="search">Search</string>
+    <string name="content_desc_search">Search Button</string>
+    <string name="cart">Cart</string>
+    <string name="content_desc_cart">Cart button</string>
+    <string name="my_orders">My Orders</string>
+    <string name="shipping_addresses">Shipping Addresses</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="my_reviews">My Reviews</string>
+    <string name="settings">Settings</string>
+    <string name="quantity_orders_zero">You don\'t have any orders yet</string>
+    <plurals name="quantity_orders">
+        <item quantity="one">You have %d order</item>
+        <item quantity="other">You have %d orders </item>
+    </plurals>
+    <string name="quantity_shipping_zero">You have no shipping addresses saved</string>
+    <plurals name="quantity_shipping">
+        <item quantity="one">You have %d shipping address saved</item>
+        <item quantity="other">You have %d shipping addresses saved</item>
+    </plurals>
+    <string name="quantity_cards_zero">You have no shipping addresses saved</string>
+    <plurals name="quantity_cards">
+        <item quantity="one">You have %d card saved</item>
+        <item quantity="other">You have %d cards saved</item>
+    </plurals>
+    <string name="quantity_reviews_zero">You made no reviews so far</string>
+    <string name="notification">Notification</string>
+    <string name="popular">Popular</string>
+    <string name="chair">Chair</string>
+    <string name="table">Table</string>
+    <string name="armchair">Armchair</string>
+    <string name="bed">Bed</string>
+    <string name="lamp">Lamp</string>
+    <string name="add_all_to_my_cart">Add all to my cart</string>
+    <string name="add_to_cart">Add to cart</string>
+    <plurals name="quantity_reviews">
+        <item quantity="one">You have made %d review</item>
+        <item quantity="other">You have made %d reviews</item>
+    </plurals>
+    <string name="product_info_quantity_reviews_zero">(%d reviews)</string>
+    <plurals name="product_info_quantity_reviews">
+        <item quantity="one">(%d review)</item>
+        <item quantity="other">(%d reviews)</item>
+    </plurals>
+
+    <string-array name="product_array">
+        <item>Bed</item>
+        <item>Lamp</item>
+        <item>Table</item>
+        <item>Bed</item>
+        <item>Lamp</item>
+        <item>Table</item>
+        <item>Bed</item>
+        <item>Lamp</item>
+        <item>Table</item>
+        <item>Bed</item>
+        <item>Lamp</item>
+        <item>Table</item>
+    </string-array>
+    <string-array name="notification_array">
+        <item>Notification 1</item>
+        <item>Notification 2</item>
+        <item>Notification 3</item>
+        <item>Notification 4</item>
+        <item>Notification 5</item>
+    </string-array>
+    <string-array name="favorites_array">
+        <item>Favorite 1</item>
+        <item>Favorite 2</item>
+        <item>Favorite 3</item>
+        <item>Favorite 4</item>
+        <item>Favorite 5</item>
+        <item>Favorite 6</item>
+        <item>Favorite 7</item>
+    </string-array>
+    <string name="_0">0</string>
+    <string name="my_cart">My Cart</string>
+    <string name="back_button">Back Button</string>
+    <string name="use_as_the_shipping_address">Use as the shipping address</string>
+    <string name="product_added">The product was added to the cart!</string>
+    <string name="favorites_added">The product was added to your favorites!</string>
+    <string name="checkout">Checkout</string>
+    <string name="total">Total:</string>
+    <string name="shipping_address">Shipping Address</string>
+    <string name="payment">Payment</string>
+    <string name="delivery_method">Delivery Method</string>
+    <string name="order">Order:</string>
+    <string name="delivery">Delivery:</string>
+    <string name="total_">Total:</string>
+    <string name="submit_order">Submit Order</string>
+    <string-array name="my_order_tabs_titles">
+        <item>Delivered</item>
+        <item>Processing</item>
+        <item>Canceled</item>
+    </string-array>
+    <string name="full_address">%s, %s, %s, %s, %s</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="do_delete_confirm">Do you really want to delete?</string>
+    <string name="delete">Delete</string>
+    <string name="test_account">login: test@test.com / 123456 or sign up</string>
+    <string name="test_password">123456</string>
+    <string name="test_login">test@test.com</string>
+    <string name="logout">Logout</string>
+    <string name="personal_information">Personal Information</string>
+    <string name="sales">Sales</string>
+    <string name="new_arrivals">New Arrivals</string>
+    <string name="delivery_status_change">Delivery Status Change</string>
+    <string name="help_center">Help Center</string>
+    <string name="faq">FAQ</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="privacy_terms"><![CDATA[Privacy & Terms]]></string>
+
+</resources>

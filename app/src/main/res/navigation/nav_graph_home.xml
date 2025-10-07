@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_home"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.group.furniture_shopping_android_app.home.HomeFragment"
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_productFragment"
+            app:destination="@id/productFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_myCartFragment"
+            app:destination="@id/myCartFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.group.furniture_shopping_android_app.favorites.FavoritesFragment"
+        android:label="fragment_favorites"
+        tools:layout="@layout/fragment_favorites" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.group.furniture_shopping_android_app.MainActivity"
+        android:label="HomeActivity" />
+    <fragment
+        android:id="@+id/notificationFragment"
+        android:name="com.group.furniture_shopping_android_app.notification.NotificationFragment"
+        android:label="fragment_notification"
+        tools:layout="@layout/fragment_notification" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.group.furniture_shopping_android_app.profile.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profileFragment_to_myOrdersFragment"
+            app:destination="@id/myOrdersFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+        <action
+            android:id="@+id/action_profileFragment_to_shippingAddressesFragment"
+            app:destination="@id/shippingAddressesFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+        <action
+            android:id="@+id/action_profileFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_loginSignUpActivity"
+            app:destination="@id/loginSignUpActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/productFragment"
+        android:name="com.group.furniture_shopping_android_app.product_details.ProductDetailsFragment"
+        android:label="fragment_product2"
+        tools:layout="@layout/fragment_product" >
+        <argument
+            android:name="product_id"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+    <fragment
+        android:id="@+id/myCartFragment"
+        android:name="com.group.furniture_shopping_android_app.my_cart.MyCartFragment"
+        android:label="fragment_my_cart"
+        tools:layout="@layout/fragment_my_cart" >
+        <action
+            android:id="@+id/action_myCartFragment_to_checkoutFragment"
+            app:destination="@id/checkoutFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/myOrdersFragment"
+        android:name="com.group.furniture_shopping_android_app.my_orders.MyOrdersFragment"
+        android:label="fragment_my_orders"
+        tools:layout="@layout/fragment_my_orders" />
+    <fragment
+        android:id="@+id/myOrdersTabFragment"
+        android:name="com.group.furniture_shopping_android_app.MyOrdersTabFragment"
+        android:label="fragment_my_orders_tab"
+        tools:layout="@layout/fragment_my_orders_tab" />
+    <fragment
+        android:id="@+id/shippingAddressesFragment"
+        android:name="com.group.furniture_shopping_android_app.shipping_addresses.ShippingAddressesFragment"
+        android:label="fragment_shipping_addresses"
+        tools:layout="@layout/fragment_shipping_addresses" />
+    <fragment
+        android:id="@+id/checkoutFragment"
+        android:name="com.group.furniture_shopping_android_app.checkout.CheckoutFragment"
+        android:label="CheckoutFragment" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.group.furniture_shopping_android_app.settings.SettingsFragment"
+        android:label="SettingsFragment" />
+    <activity
+        android:id="@+id/loginSignUpActivity"
+        android:name="com.group.furniture_shopping_android_app.login_signup.LoginSignUpActivity"
+        android:label="LoginSignUpActivity" />
+</navigation>
